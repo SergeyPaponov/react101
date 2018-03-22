@@ -1,0 +1,79 @@
+{
+  "_from": "react-css-grid",
+  "_id": "react-css-grid@2.0.0-0",
+  "_inBundle": false,
+  "_integrity": "sha512-D+8qDK2UJSTMjKT51FXAIemJWUkz/bpwssoqiOneRENuEIH8j7w87d11dELNJUBlxaO0ULCVg/janD2+CPwywA==",
+  "_location": "/react-css-grid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-css-grid",
+    "name": "react-css-grid",
+    "escapedName": "react-css-grid",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-css-grid/-/react-css-grid-2.0.0-0.tgz",
+  "_shasum": "df89242decc1f072425f154f254f176bb60500a7",
+  "_spec": "react-css-grid",
+  "_where": "C:\\Users\\spapo\\react\\react101",
+  "author": {
+    "name": "Brent Jackson"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "styled-components": "^2.1.2"
+  },
+  "deprecated": false,
+  "description": "React layout component based on CSS Grid Layout and built with styled-components",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "grid-styled": "^2.0.0-10",
+    "nyc": "^11.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-live": "^1.7.0",
+    "react-test-renderer": "^15.6.1",
+    "react-x-ray": "^1.0.0-2",
+    "refunk": "^1.0.0-2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "styled-components",
+    "layout",
+    "css-grid",
+    "grid",
+    "css"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "react-css-grid",
+  "scripts": {
+    "build": "webpack -p",
+    "prepublish": "babel src -d dist",
+    "start": "webpack-dev-server",
+    "test": "nyc ava"
+  },
+  "version": "2.0.0-0"
+}
